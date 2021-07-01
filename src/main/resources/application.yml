@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username:
+      password:
+        url:
+          driver-class-name:com.myqsl.cj.jdbc.Driver
+        jpa:
+          show-sql:true
+        hibenate:
+          ddl-auto:update
+        properties.hibenate.dialect:org.hibernate.dialect.MySQL5Dialect
